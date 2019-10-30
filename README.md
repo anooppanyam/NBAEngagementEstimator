@@ -1,10 +1,8 @@
 # Multi-Layer Perceptron Generation from NBA Box 2019 Data
 ## Application of First-Classification-Then-Regression Analysis Coupled with Stochastic Gradient Boosting
 ### Steps to success:
-- Create a weighted GBM model using XGBoost, Catboost, and LightGBM using BuildModel.py
-- Predict Initial Engagments using GBM only in TestModel.py
-- Create an estimate MLP classifier with GBM predictions using MLP_E-Classifier.py
-- Create a rank MLP classifier with GBM predictions MLP_R-Classifier.py
+- Create an estimate MLP classifier using MLP_E-Classifier.py
+- Create a rank MLP classifier using MLP_R-Classifier.py
 - Create an overall MLP regressor using MLP_Creator.py
 - Apply the overall MLP regressor to holdout data using Final_Applier.py
 ### Miscellanies:
